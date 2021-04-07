@@ -1,0 +1,10 @@
+.main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .main-wrapper {
+    justify-content: center;
+  }
+}
