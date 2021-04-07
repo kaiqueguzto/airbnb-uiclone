@@ -1,4 +1,4 @@
-.form {
+.main-form {
   background: #FFF;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   margin-top: 80px;
 }
 
-.form h1 {
+.main-form h1 {
   font-size: 32px;
   font-family: 'Roboto';
   font: 500;
@@ -21,17 +21,16 @@
   margin-bottom: 18px;
 }
 
-.form span {
+.main-form span {
   color: #484848;
   font-size: 15px;
 }
-
-.form label {
+.main-form label {
   font-size: 14px;
   color: #484848;
 }
 
-.form input {
+.main-form input {
   border: 1px solid #ddd;
   padding: 9px 18px;
   color: #747474;
@@ -84,14 +83,14 @@
 }
 
 @media (max-width:565px) {
-  .form {
+  .main-form {
     margin: 10px 0px;
     box-sizing: border-box;
     width: 100%;
     max-width: 100%;
   }
 
-  .form .wrapper-input {
+  .main-form .wrapper-input {
     flex-direction: column;
   }
 
@@ -105,7 +104,7 @@
 }
 
 @media (max-width:330px) {
-  .form h1 {
-    font-size: 20px;
+  .main-form h1 {
+    font-size: 16px;
   }
 }
