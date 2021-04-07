@@ -1,0 +1,32 @@
+.destinations {
+  display: flex;
+  flex-direction: column; 
+  margin-right: 16px;
+}
+
+.destinations span:nth-child(2) {
+  color: #914669;
+  font-size: 14px;
+
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.destinations div {
+  position: relative;
+}
+
+.destinations div img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 430px) {
+  .destinations div img:nth-child(2) {
+    width: 100%;
+  }
+}
