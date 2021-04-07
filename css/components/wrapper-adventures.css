@@ -1,10 +1,10 @@
-.wrapper-accommodations {
+.wrapper-adventures {
   display: flex;
   flex-wrap: wrap;
 }
 
 @media (max-width: 800px) {
-  .wrapper-accommodations {
+  .wrapper-adventures {
     justify-content: center;
   }
 }
