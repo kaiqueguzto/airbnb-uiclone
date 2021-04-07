@@ -4,6 +4,7 @@ header {
   align-items: center;
 
   padding: 14px 23px;
+  animation: headerY .5s ease-out;
 }
 
 header a {
@@ -12,4 +13,20 @@ header a {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   margin-right: 24px;
+  transition: filter .2s;
+}
+
+header a:hover {
+  filter: brightness(80%);
+}
+
+@keyframes headerY {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+
+  }
 }

@@ -1,7 +1,8 @@
 .accomodation {
   margin: 24px 16px 10px 0px;
-
+  cursor: pointer;
 }
+
 
 .tag {
   font-size: 12px;
@@ -29,4 +30,12 @@
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
+}
+
+
+@media (max-width: 430px) {
+
+  .accomodation .accommodation-image{
+    width: 100%;
+  }
 }
