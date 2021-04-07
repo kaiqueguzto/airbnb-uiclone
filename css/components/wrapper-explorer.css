@@ -1,0 +1,11 @@
+.wrapper-explorer {
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+
+@media (max-width: 530px) {
+  .wrapper-explorer {
+    flex-direction: column;
+  }
+}
