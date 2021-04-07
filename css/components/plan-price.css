@@ -1,0 +1,13 @@
+.plan-price {
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #484848;
+  max-width: 188px;
+  line-height: 21px;  
+}
+
+.plan-price.-accommodations {
+  display: block;
+  margin-top: 16px;
+}

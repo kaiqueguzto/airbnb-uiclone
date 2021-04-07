@@ -5,3 +5,10 @@
   color: #484848;
   font-weight: 300;
 }
+
+
+@media (max-width: 800px) {
+  .content-p {
+    text-align: center;
+  }
+}

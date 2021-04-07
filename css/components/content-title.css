@@ -3,3 +3,9 @@
   color: #484848;
   font-size: 22px;
 }
+
+@media (max-width: 800px) {
+  .content-title {
+    text-align: center;
+  }
+}

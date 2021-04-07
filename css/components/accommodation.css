@@ -1,0 +1,32 @@
+.accomodation {
+  margin: 24px 16px 10px 0px;
+
+}
+
+.tag {
+  font-size: 12px;
+  color: #484848;
+  font-weight: 700;
+
+  border: 1px solid #484844;
+  padding: 8px;
+  margin-right: 13px;
+}
+
+.type {
+  font-size: 13px;
+  color: #767676;
+  font-weight: 400;
+}
+
+.star-red {
+  font-weight: 500;
+  font-size: 13px;
+  color: #484848;
+}
+
+.wrapper-tags {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
