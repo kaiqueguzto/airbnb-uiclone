@@ -1,6 +1,7 @@
 .explorer { 
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .explorer img {
@@ -20,6 +21,4 @@
     margin-bottom: 20px;
     margin-top: 10px; 
   }
-
-
 }
