@@ -108,7 +108,9 @@
 
 @media (max-width:330px) {
   .main-form h1 {
-    font-size: 16px;
+    font-size: 100%;
+    max-width: 100%;
+    overflow-x: auto;
   }
 }
 
